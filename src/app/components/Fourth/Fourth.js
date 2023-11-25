@@ -1,7 +1,6 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import { Main } from "../Third/StyleThrid";
-import Popup from "reactjs-popup";
-import "reactjs-popup/dist/index.css";
+
 import {
   Absolute,
   Button,
@@ -20,15 +19,12 @@ import {
   Edit,
   EditSecond,
   TSButton,
-  NoBut,
-  Modal,
   AbsoluteD,
   Heading,
   Para,
   InnerDiv,
   InnerBut,
   InnerCan,
-  Image,
   OuterCan,
 } from "./StyleFourth";
 import { IoPrint } from "react-icons/io5";
